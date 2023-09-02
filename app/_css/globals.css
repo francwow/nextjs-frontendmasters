@@ -25,3 +25,33 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.btn {
+  padding: 5px;
+  margin: 10px;
+  background-color: tomato;
+  border-radius: 100vw;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.h-link:hover {
+  background-color: #f3f3f3;
+  color: tomato;
+  text-decoration: underline;
+}
+
+.selected {
+  color: tomato;
+  text-decoration: underline;
+}
